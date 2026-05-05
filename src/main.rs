@@ -1,10 +1,11 @@
 use std::io;
 use regex::Regex;
+mod modules;
 
 fn main() {
     let re = Regex::new(r"^[1-4]$").unwrap();
 
-    while true {
+    loop {
         println!("=== Welcome to Student Registration ===");
         println!();
         println!("Choose an option to proceed.");

@@ -1,5 +1,5 @@
-use super::traits::Validator;
-use super::model_student::Student;
+use crate::modules::traits::r#trait::Validator;
+use crate::modules::models::model_student::Student;
 use regex::Regex;
 
 pub struct StudentService;
